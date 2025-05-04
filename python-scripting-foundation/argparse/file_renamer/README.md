@@ -16,8 +16,8 @@
 python file_renamer.py <old_filename> <new_filename>
 ```
 ### 📌 Example
-bash
-```
+
+```bash
 python file_renamer.py old_file.txt new_file.txt
 ```
 ##### This command will rename old_file.txt to new_file.txt if the file exists and permissions are adequate.
@@ -32,26 +32,24 @@ python file_renamer.py old_file.txt new_file.txt
 ### ❗ Error Handling
 ##### If the old file does not exist, the script prints:
 
-arduino
-```
+```arduino
 File not found
 ```
+
 ##### If an unexpected error occurs (e.g., permission issues), it prints:
 
-nginx
-```
+```nginx
 An error occurred: <error message>
 ```
+
 ### 🔐 Set Read-Only to Test Error
 ##### Use the following command to make a file read-only and test permission-related errors:
 
-bash
-```
+```bash
 chmod 444 old_file.txt
 ```
 ##### To revert back to writable:
 
-bash
-```
+```bash
 chmod 644 old_file.txt
 ```

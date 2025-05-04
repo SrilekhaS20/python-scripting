@@ -6,8 +6,8 @@
 
 ### 🚀 How to Use
 ##### 📌 Syntax
-bash
-```
+
+```bash
 python calc.py --operation OPERATION --x NUMBER1 --y NUMBER2
 ```
 
@@ -19,8 +19,8 @@ python calc.py --operation OPERATION --x NUMBER1 --y NUMBER2
 
 
 ### ✅ Examples
-bash
-```
+
+```bash
 python calc.py --operation add --x 5 --y 3
 # Output: 8
 

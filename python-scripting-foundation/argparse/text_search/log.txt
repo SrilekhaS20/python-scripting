@@ -1,0 +1,13 @@
+[2025-04-30 10:15:23] INFO Starting application
+[2025-04-30 10:15:25] INFO Connecting to database...
+[2025-04-30 10:15:27] WARNING Connection is slow
+[2025-04-30 10:15:30] INFO Connected successfully
+[2025-04-30 10:16:02] ERROR Failed to fetch user data: TimeoutError
+[2025-04-30 10:16:03] INFO Retrying...
+[2025-04-30 10:16:05] INFO Fetch successful on retry
+[2025-04-30 10:17:10] INFO Processing user request
+[2025-04-30 10:17:12] ERROR Invalid input format: expected JSON
+[2025-04-30 10:17:14] INFO Request failed gracefully
+[2025-04-30 10:18:00] INFO Application shutdown requested
+[2025-04-30 10:18:02] INFO Application terminated
+[2025-04-30 10:16:02] error Failed to fetch user data: TimeoutError

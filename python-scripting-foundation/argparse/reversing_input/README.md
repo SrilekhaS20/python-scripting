@@ -10,15 +10,15 @@
 ##### No external packages are required — only standard libraries are used.
 
 ### 🚀 How to Run
-bash
-```
+
+```bash
 python reverse_args.py <your_word>
 ```
 ##### 📌 Replace <your_word> with the word you want to reverse.
 
 ### ✅ Example
-bash
-```
+
+```bash
 $ python reverse_args.py DevOps
 ```
 spOveD
@@ -38,8 +38,8 @@ spOveD
 ##### Prepares you for automation scripting and DevOps CLI tools
 
 ### 📄 Script Content
-python
-```
+
+```python
 import argparse
 
 parser = argparse.ArgumentParser()

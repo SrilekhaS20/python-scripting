@@ -67,7 +67,9 @@ file_path = os.path.join(directory3, file_name)
 with open(file_path, "w") as f:
     f.write("This file is written using os.path.join() method")
 print(f"{file_name} is created successfully in {directory3}")
+#Remove the file
 os.remove(file_path)
+# Check if file path is present
 if not os.path.exists(file_path):
     print(f"{file_name} is removed")
 else:
@@ -80,15 +82,15 @@ print(os.name)
 directory4 = "D:\Git_Repo\python-scripting\python-scripting-foundation\os_library"
 file_text = "sample.txt"
 file_path = os.path.join(directory4, file_text)
-
+#sample.txt to be renamed to dummy.txt
 new_file_name = "dummy.txt"
 new_file_path = os.path.join(directory4, new_file_name)
-
+#Check if sample.txt and dummy.txt file is present or not
 if not os.path.exists(file_path) and not os.path.exists(new_file_path):
     with open(file_path, "w") as f:
         f.write("This file is written to rename")
     print(f"Created: {file_text}")
-
+#Check if sample.txt is present or not
 if os.path.exists(file_path):
     os.rename(file_path, new_file_path)
     print(f"{file_text} is renamed as {new_file_name}")
